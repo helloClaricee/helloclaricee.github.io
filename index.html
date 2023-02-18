@@ -1,32 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title> HELLO WORLS</title>
-	<link rel="stylesheet" href="style.css"/>
+<title>My 90s Website</title>
+	<style>
+		body {
+			background-color: #Ff00ea;
+			color: #72ff00;
+			font-family: Impact, Charcoal, sans-serif;
+		}
 
+		h1 {
+			font-size: 50px;
+			text-align: center;
+			text-shadow: 2px 2px black;
+		}
+
+		#nav {
+			background-color: #72ff00;
+			color: #Ff00ea;
+			padding: 10px;
+			text-align: center;
+			font-size: 20px;
+			font-weight: bold;
+		}
+
+		#nav a {
+			color: #Ff00ea;
+			text-decoration: none;
+			margin: 0 10px;
+		}
+
+		#nav a:hover {
+			color: white;
+		}
+
+		#content {
+			margin: 20px;
+			font-size: 25px;
+			line-height: 1.5;
+			text-align: justify;
+		}
+
+		.button {
+			background-color: #72ff00;
+			color: #Ff00ea;
+			padding: 10px 20px;
+			font-size: 20px;
+			font-weight: bold;
+			border: 3px solid #Ff00ea;
+			border-radius: 10px;
+			text-decoration: none;
+			margin: 10px;
+			display: inline-block;
+			text-align: center;
+		}
+
+		.button:hover {
+			background-color: #Ff00ea;
+			color: #72ff00;
+		}
+
+		footer {
+			background-color: yellow;
+			color: #Ff00ea;
+			padding: 10px;
+			text-align: center;
+			font-size: 20px;
+			font-weight: bold;
+			margin-top: 50px;
+		}
+
+		footer p {
+			margin: 0;
+		}
+	</style>
+</head>
 <body>
-	<script src="main.js"></script>
-	<h1>WELCOM<H1>
-	<p>I'm hosted with GitHub Pages. </p>
-
-	<div class="nav-container">
-		<div class="wrapper">
-			<nav>
-				<div class="logo">
-					D.
-				</div>
-				<ul class="nav-items">
-					<li>
-					<a href="#">about space jam</a>
-					<li>
-				</ul>
-			</nav>
-		</div>
+	<div id="nav">
+		<a href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">Contact</a>
 	</div>
-</body>
+
+	<h1>Welcome to my 90s Website!</h1>
+
+	<div id="content">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae quam tortor. Aenean at risus eu metus gravida scelerisque. Aliquam euismod risus nec quam dapibus, eget aliquet velit tempor. Aliquam erat volutpat. In consectetur ex sed justo dignissim commodo. Aliquam sed ex id risus laoreet dignissim vel vel urna. Cras pretium velit eu sapien facilisis, ac convallis enim finibus. Fusce ultrices eros et turpis feugiat rhoncus. Nullam eget ex massa. Proin vitae rutrum lorem. Duis iaculis felis ac neque posuere consectetur. Sed lacinia nunc a sem hendrerit sagittis. Aliquam rutrum consectetur mauris a sagittis.</p>
+		<a href="#" class="button">Read More</a>
+	</div>
+
+	<footer>
+		<p>Copyright &copy; 2023</p>
+	</footer>
 
 </html>
